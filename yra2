@@ -1,0 +1,7 @@
+<?php
+\$coffee_cups = 0;
+do {
+    echo "Выпил чашку кофе" . PHP_EOL;
+    \$coffee_cups++;
+} while (\$coffee_cups < 1);
+?>
